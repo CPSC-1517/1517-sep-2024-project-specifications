@@ -11,15 +11,21 @@ On this component, the student must provide a means to
 * **Insert** new rows of data into a table
 * **Update** an existing row of data in a table
 * **Delete** (or mark as inactive/not current) a row of data in a table
-* **Cancel** editing (this should return the user to the `Query` component)
+* **Cancel** editing (clear the form)
+* **Return to Query** returns to the `Query` component
 
 ### Alter Query component to transfer to CRUD component
 
 Alter your Query component to contain a button/link that will transfer you to the CRUD component for entering a new record. Alter each tabular line to transfer an appropriate piece of data to the CRUD component so the associated database record can be retreived and displayed.
-
+<!-- 
 ### Handling Foreign Keys With Large Data Sets
 
-For many of the scenarios, foreign key information will have to be handled in a search/filter manner. The reason for this is because there are far too many rows of data to put in a single drop-down control. For example, with thousands of *Students* in the database, it is impractical to fill a drop-down and expect a user to find the student they wish to edit. In these situations, a two-step selection process makes the form more manageable by the user. **Consult your specific scenario for further guidance on this matter.**
+For many of the scenarios, foreign key information will have to be handled in a search/filter manner. The reason for this is because there are far too many rows of data to put in a single drop-down control. For example, with thousands of *Students* in the database, it is impractical to fill a drop-down and expect a user to find the student they wish to edit. In these situations, a two-step selection process makes the form more manageable by the user. **Consult your specific scenario for further guidance on this matter.** -->
+
+### CRUD Form
+
+Your `CRUD` component will use an **EditForm**. The form will use the entity validation annotations. The table entity being maintained in your scenario will required custom error messages on the validation annotations. The entity annotations will be limited (unless otherwise authorized or augmented by your instructor) to Required, StringLength, Range, and EmailAddress. Error messages will be display beneath the appropriate field. You will need a success feed back message area. You may also have a validation summary area. Format layout of your form for your scenario is at your degression. 
+
 
 ### Processing Delete
 
@@ -43,9 +49,13 @@ Your assignment will be marked based upon the following weights. See the [genera
 
 | Weight | Earned | Deliverable/Requirement |
 | ---- | --------- | -----------------|
-| 10 |     | `CRUD` Component correctly functions as per scenario and general specifications |
+| 1 |     | `Query` transfer to CRUD page Button (new record) |
+| 1 |     | `CRUD` Cancel/Return button(s)|
+| 3 |     | `CRUD` insert new record |
+| 3 |     | `CRUD` Update existing record |
+| 3 |     | `CRUD` Delete existing row (physical / logical) |
 | ---- | ---- | --------- |
-| **10** |    | **Total** |
+| **11** |    | **Total** |
 
 ### Suggest check list
 
