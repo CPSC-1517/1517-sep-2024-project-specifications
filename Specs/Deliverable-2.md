@@ -50,6 +50,7 @@ Your assignment will be marked based upon the following weights. See the [genera
 | Weight | Earned | Deliverable/Requirement |
 | ---- | --------- | -----------------|
 | 1 |     | `Query` transfer to CRUD page Button (new record) |
+| 4 |     | `CRUD` Editform setup and structure, Entity custom annotation messages|
 | 1 |     | `CRUD` Cancel/Return button(s)|
 | 3 |     | `CRUD` insert new record |
 | 3 |     | `CRUD` Update existing record |
