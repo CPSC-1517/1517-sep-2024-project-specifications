@@ -56,7 +56,7 @@ Your assignment will be marked based upon the following weights. See the [genera
 | 3 |     | `CRUD` Update existing record |
 | 3 |     | `CRUD` Delete existing row (physical / logical) |
 | ---- | ---- | --------- |
-| **11** |    | **Total** |
+| **15** |    | **Total** |
 
 ### Suggest check list
 
