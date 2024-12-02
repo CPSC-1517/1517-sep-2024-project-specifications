@@ -16,7 +16,7 @@ The database supplied for this lab is an SQL Server database named "StarTED". Th
   "StarTEDDb": "Server=.;Database=StarTED;Trusted_Connection=true;MultipleActiveResultSets=true"
 ```
 
-In creating the entities for tables from the database, **only create for those tables related to your specific scenario** (deductions may be applied if you create additional entities). You are encouraged to generate the entities and the database context class using [reverse engineering](https://docs.microsoft.com/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli#specifying-tables).
+~~In creating the entities for tables from the database, **only create for those tables related to your specific scenario** (deductions may be applied if you create additional entities).~~ In creating the entities for tables from the database, you **MAY** select all the tables in the database. You are encouraged to generate the entities and the database context class using [reverse engineering](https://docs.microsoft.com/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli#specifying-tables).
 
 ## Program.cs and Extension method
 
